@@ -25,9 +25,9 @@
                         <td><?= $this->helper->dateFormatPt($devedor->data_cadastro) ?></td>
                         <td><?= $this->helper->dateTimeFormatPt($devedor->updated) ?></td>
                         <td class="acoes">
-                            <a class="btn btn-info" href="<?=URLBASE?>devedores/editar/devedor/<?= $devedor->hash ?>">Editar Cadastro</a>
+                            <a class="btn btn-info" href="<?=URLBASE?>devedores/editar/devedor/<?= $devedor->hash ?>">Editar</a>
                             <a class="btn btn-info" href="<?=URLBASE?>dividas/index/devedor/<?= $devedor->hash ?>">Dívidas</a>
-                            <a class="btn btn-info" href="<?=URLBASE?>devedores/excluir/devedor/<?= $devedor->hash ?>">Excluir Cadastro</a>
+                            <a class="btn btn-info" href="<?=URLBASE?>devedores/excluir/devedor/<?= $devedor->hash ?>">Excluir</a>
                         </td>
                     </tr>
                 <?php } ?>
