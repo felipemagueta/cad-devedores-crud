@@ -3,7 +3,7 @@
     <?php if (!$data['devedores']) { ?>
         <p class="empty">Nenhum devedor encontrado.</p>
     <?php } else { ?>
-        <table class="table table-bordered">
+        <table class="table table-bordered table-responsive">
             <thead>
                 <tr>
                     <th>Nome</th>
